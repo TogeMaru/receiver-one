@@ -55,7 +55,9 @@ The first proof-of-concept amplifier board has been designed. As a POC, it keeps
 
 The first revision of the official amplifier PCB has been designed. It now features:
 
-- A dual gang A47K potentiometer for volume controls. The reason an A47K was used instead of a B47K is because A47K (audio/logarithmic) potentiometer is better by matching the logarithmic way human hearing perceives loudness, giving a smooth and natural volume adjustment instead of most of the volume change happening near one end of the knob. 
+- A dual gang A47K potentiometer for volume controls. The reason an A47K was used instead of a B47K is because A47K (audio/logarithmic) potentiometer is better by matching the logarithmic way human hearing perceives loudness, giving a smooth and natural volume adjustment instead of most of the volume change happening near one end of the knob.
+- A PCM5102A digital to analog converter for converting the ESP32's digital signals received from bluetooth to analog signals which can be fed into the amplifier.
+Once again, images of the new edition have been provided in Images/amplifier/V1.0
 ---
 
 ## 📌 Status
