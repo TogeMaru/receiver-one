@@ -47,8 +47,8 @@ The first proof-of-concept amplifier board has been designed. As a POC, it keeps
 - Speaker terminals
 - A 2200µF filtering capacitor
 
-📄 **Schematic:** [`images/schematics/v0.1`](images/schematics/v0.1)
-🖼️ **3D Render:** [`images/renders/v0.1`](images/renders/v0.1)
+📄 **Schematic:** Images/schematics/v0.1
+🖼️ **3D Render:** Images/renders/v0.1
 
 > Fun detail: the board's front silkscreen features a **harp seal pup** — seals are my favorite animals 🦭
 
