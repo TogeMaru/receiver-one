@@ -10,8 +10,8 @@ The receiver uses two **TDA2030A** amplifier chips, each driving its own respect
 
 Control and input switching are handled by an **ESP32**, which brings a few nice options to the table:
 
-- **Bluetooth audio** — using the ESP32's built-in Bluetooth paired with its two built-in DAC pins (`GPIO 25` and `GPIO 26`)
-- **High-quality digital audio** — via an I2S bus, with dedicated pins for Data, Clock, and Word Select
+- **Bluetooth audio** — using the ESP32's built-in Bluetooth capabilities paired with its two built-in DAC pins (`GPIO 25` and `GPIO 26`)
+- **High-quality digital audio** — via an I2S bus, using a PCM5102A DAC.
 
 ## 🎛️ Input Selector
 
@@ -39,7 +39,7 @@ Together, these let you cycle through the menu, switch between inputs, and navig
 
 ## 📅 Progress Log
 
-### v0.1 — Amplifier POC (July 23rd)
+### v0.1 — Amplifier POC (July 22nd)
 
 The first proof-of-concept amplifier board has been designed. As a POC, it keeps things simple:
 
@@ -50,8 +50,12 @@ The first proof-of-concept amplifier board has been designed. As a POC, it keeps
 📄 **Schematic:** Images/schematics/v0.1
 🖼️ **3D Render:** Images/renders/v0.1
 
-> Fun detail: the board's front silkscreen features a **harp seal pup** — seals are my favorite animals 🦭
+> Fun detail: the board's front silkscreen features a **harp seal pup** because seals are my favorite animals 🦭
+### v1.0 — Stereo Amplifier board (July 23rd)
 
+The first revision of the official amplifier PCB has been designed. It now features:
+
+- A dual gang A47K potentiometer for volume controls. The reason an A47K was used instead of a B47K is because A47K (audio/logarithmic) potentiometer is better by matching the logarithmic way human hearing perceives loudness, giving a smooth and natural volume adjustment instead of most of the volume change happening near one end of the knob. 
 ---
 
 ## 📌 Status
