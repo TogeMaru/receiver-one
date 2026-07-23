@@ -1,4 +1,4 @@
-# 🎧 DIY Audio Receiver
+# 🎧 Audio Receiver
 
 This marks the beginning of my journey towards building a small audio receiver **from scratch**.
 
