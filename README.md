@@ -1,10 +1,10 @@
-# 🎧 Audio Receiver
+#  Audio Receiver
 
 This marks the beginning of my journey towards building a small audio receiver **from scratch**.
 
 ---
 
-## 🔊 Overview
+##  Overview
 
 The receiver uses two **TDA2030A** amplifier chips, each driving its own respective channel (stereo amplification, one chip per channel).
 
@@ -13,7 +13,7 @@ Control and input switching are handled by an **ESP32**, which brings a few nice
 - **Bluetooth audio** — using the ESP32's built-in Bluetooth capabilities paired with its two built-in DAC pins (`GPIO 25` and `GPIO 26`)
 - **High-quality digital audio** — via an I2S bus, using a PCM5102A DAC.
 
-## 🎛️ Input Selector
+##  Input Selector
 
 The input selector is built around:
 
@@ -25,7 +25,7 @@ Together, these let you cycle through the menu, switch between inputs, and navig
 
 ---
 
-## 🛠️ Hardware Summary
+##  Hardware Summary
 
 | Component | Purpose |
 |---|---|
@@ -37,7 +37,7 @@ Together, these let you cycle through the menu, switch between inputs, and navig
 
 ---
 
-## 📅 Progress Log
+##  Progress Log
 
 ### v0.1 — Amplifier POC (July 22nd)
 
@@ -47,8 +47,8 @@ The first proof-of-concept amplifier board has been designed. As a POC, it keeps
 - Speaker terminals
 - A 2200µF filtering capacitor
 
-📄 **Schematic:** Images/schematics/v0.1
-🖼️ **3D Render:** Images/renders/v0.1
+ **Schematic:** Images/schematics/v0.1
+ **3D Render:** Images/renders/v0.1
 
 > Fun detail: the board's front silkscreen features a **harp seal pup** because seals are my favorite animals 🦭
 ### v1.0 — Stereo Amplifier board (July 23rd)
@@ -60,6 +60,6 @@ The first revision of the official amplifier PCB has been designed. It now featu
 Once again, images of the new edition have been provided in Images/amplifier/V1.0
 ---
 
-## 📌 Status
+##  Status
 
-🚧 Work in progress — more updates to come as the project develops.
+ Work in progress — more updates to come as the project develops.
