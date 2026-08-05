@@ -58,6 +58,11 @@ The first revision of the official amplifier PCB has been designed. It now featu
 - A dual gang A47K potentiometer for volume controls. The reason an A47K was used instead of a B47K is because A47K (audio/logarithmic) potentiometer is better by matching the logarithmic way human hearing perceives loudness, giving a smooth and natural volume adjustment instead of most of the volume change happening near one end of the knob.
 - A PCM5102A digital to analog converter for converting the ESP32's digital signals received from bluetooth to analog signals which can be fed into the amplifier.
 Once again, images of the new edition have been provided in Images/amplifier/V1.0
+### v0.1 — Controller  (August 5th)
+
+Once the amplifier board has been completed; it was time to make it smart. Hence the controller board.
+The current work-in-progress controller features an ESP32 board for Bluetooth and audio switching. To get a better 3D footprint and to ease the schematic for viewing, I have used syauqibilfaqih's symbol and footprint (https://github.com/syauqibilfaqih/ESP32-DevKit-V1-DOIT).
+
 ---
 
 ##  Status
